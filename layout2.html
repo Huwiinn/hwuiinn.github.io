@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/layout2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link href="./fontawesome/css/all.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="./css/ie.css" />
+    <![endif]-->
+    <title>반응형 레이아웃</title>
+
+</head>
+
+<body>
+
+    <nav class="nav-container">
+        <div class="nav-item">
+            <button class="nav-btn" style="padding: 0%;"><i class="fas fa-grip-lines"></i> ZARA</button>
+        </div>
+        <div style="flex-grow: 1;"></div>
+        <div class="nav-item"><button class="nav-btn">products</button></div>
+        <div class="nav-item"><button class="nav-btn">services</button></div>
+    </nav>
+
+    <div class="main-background">
+        <h1 class="main-title">OUR MODEL</h1>
+        <p class="main-content">
+            We want to create value through beautiful, ethical, quality products with a complete cycle of life.
+            <br> We act precisely and responsibly in every stage of the fashion process
+            <br> -from design and sourcing, to manufacturing and quality control, logistics
+            <br> and sales through stores and online- through a unique business model with three key pillars:
+            <br> flexibility, digital integration and sustainability.
+        </p>
+        <button class="main-btn">Buy Now</button>
+    </div>
+
+    <div class="sub-background">
+        <h3 class="sub-title">EVERY INDITEX BRAND HAS IMPLEMENTED THE RFID SYSTEM</h3>
+        <p class="sub-content">The integrated stock management system SINT, which is in place in 5,777 stores in 89
+            markets,
+            <br>allows to fulfil customers' online orders both from store warehouses and online stockrooms, helping to
+            shorten delivery times and enhance customer service.
+        </p>
+    </div>
+
+    <div class="media-container">
+        <div class="media-content">
+            <div style="position: relative;">
+                <div class="media-overlay"></div>
+                <i class="fas fa-shopping-cart" style="font-size: 50px; color: antiquewhite;"></i>
+                <h3>Fast Shopping</h3>
+                <p>Good experience for your shopping</p>
+            </div>
+        </div>
+        <div class="media-content">
+            <div style="position: relative;">
+                <div class="media-overlay"></div>
+                <i class="far fa-smile-beam" style="font-size: 50px; color: antiquewhite;"></i>
+                <h3>Good Services</h3>
+                <p>Friendly Staff</p>
+            </div>
+        </div>
+        <div class="media-content">
+            <div style="position: relative;">
+                <div class="media-overlay"></div>
+                <i class="fas fa-percent" style="font-size: 50px; color: antiquewhite;"></i>
+                <h3>Free Coupons</h3>
+                <p>Every weeks, We provide discount coupon</p>
+            </div>
+        </div>
+        <div class="media-content">
+            <div style="position: relative;">
+                <div class="media-overlay"></div>
+                <i class="fas fa-calendar-plus" style="font-size: 50px; color: antiquewhite;"></i>
+                <h3>New Products</h3>
+                <p>A month, Add good item</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-bg">
+        <div class="shop-container">
+            <div class="shop-item">
+                <div style="position: relative;">
+                    <div class="overlay-wrap">
+                        <div class="overlay-black">
+                            <span class="overlay-item-price">$60</span>
+                        </div>
+                    </div>
+                    <img src="./shoe1.jpg">
+                </div>
+            </div>
+            <div class="shop-item">
+                <div style="position: relative;">
+                    <div class="overlay-wrap">
+                        <div class="overlay-black">
+                            <span class="overlay-item-price">$100</span>
+                        </div>
+                    </div>
+                    <img src="./shoe2.jpg">
+                </div>
+            </div>
+            <div class="shop-item">
+                <div style="position: relative;">
+                    <div class="overlay-wrap">
+                        <div class="overlay-black">
+                            <span class="overlay-item-price">$120</span>
+                        </div>
+                    </div>
+                    <img src="./shoe3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <form> 
+       <p>ID <input type="text" placeholder="입력하세요"> </p>
+       <p>PW <input type="password"> </p>
+       <p>저장하기 <input type="radio"> </p>
+       <textarea></textarea>
+       <p><input type="submit"></p>  button 속성 안줘도 버튼처럼 생김 
+       <p> <button type="submit">전송하기</button></p>
+    </form> -->
+
+
+    <div class="form-background">
+        <div class="form-white">
+            <form>
+                <div class="w-100">
+                    <h3>Contact Us</h3>
+                    <p><label for="email">Email</label></p>
+                    <input id="email" type="email" class="form-input" placeholder="YourEmail@gmail.com">
+                </div>
+                <div class="w-50">
+                    <p><label for="first">First Name</label></p>
+                    <input id="first" type="text" class="form-input" placeholder="홍">
+                </div>
+                <div class="w-50">
+                    <p><label for="last">Last Name</label></p>
+                    <input id="last" type="text" class="form-input" placeholder="길동">
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="w-100">
+                    <p><label for="mas">Massage</p></label>
+                    <textarea id="mas" class="form-input" placeholder="Mention"></textarea>
+                </div>
+
+                <div class="w-100">
+                    <input id="sub" type="checkbox" class="input-checkbox">
+                    <label for="sub">Subscribe</label>
+                    <button class="input-btn">Send</button>
+                </div>
+<!-- input file 형식 연습문장. 삭제해도 된다. -->
+                <!-- <input type="file" class="input-file"> -->
+
+                <label for="input-file" class="input-file-button upload-btn">
+                    Upload
+                </label>
+                <input type="file" id="input-file" style="display: none;">
+                <!-- input placeholder 연습 -->
+                <input class="input-placeholder" placeholder="여기 입력하세요.">
+                <!-- range 스타일 적용 연습 -->
+                <br>
+                <hr>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+<script>
+
+
+</script>
+
+</html>
