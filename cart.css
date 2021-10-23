@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.cart-background {
+    background-color: skyblue;
+    padding: 30px;
+    width: 100%;
+}
+
+.shopping-cart {
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.shopping-cart th,
+.shopping-cart td {
+    border-bottom: 1px solid skyblue;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.shopping-cart th:nth-child(2) {
+    width: 200px;
+}
+
+.btn {
+    float: right;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid aquamarine;
+    color:red;
+    cursor: pointer;
+}
+
+.btn-wrap::after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+
+.btn:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.btn:focus {
+    background-color: burlywood;
+}
+
+.btn:active {
+    background-color: blue;
+}
+
+.input-test {
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-test:focus {
+    background-color: #eee;
+    border-bottom: 3px solid pink;
+    border-radius: 10px;
+}
+
+.custom-link {
+text-decoration: none;
+}
+
+.custom-link:link {
+color: aqua;
+}
+
+
+.aaa {
+    text-decoration: none;
+}
+
+.aaa:link {
+    color: pink;
+}
+
+
+.main-btn {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.f-small {
+    font-size: 12px;
+}
+
+.f-mid {
+    font-size: 16px;
+}
+
+.f-lg {
+    font-size: 20px;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: #eee;
+}
+
+.profile {
+    
+}
+
+
